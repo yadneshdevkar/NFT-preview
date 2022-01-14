@@ -1,0 +1,113 @@
+body {
+
+    background-color: #0d192b;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.parent {
+    width: 292px;
+    height: 533px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 4rem auto;
+    position: relative;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.equi-img {
+
+    width: 81%;
+    position: absolute;
+    border-radius: 36px;
+    top: 24px;
+    opacity: 1;
+    text-align: center;
+
+
+}
+
+.equi-img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+
+
+.view-img {
+    position: absolute;
+    padding: 92px;
+    background: rgb(0, 255, 247, 0.5);
+    top: 29px;
+    border-radius: 33px;
+    left: 30px;
+
+}
+
+.parent2 {
+    position: absolute;
+    top: 257px;
+    left: 15px;
+    width: 84%;
+    /* border: 1px solid white; */
+    padding: 0px 13px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #00fff7;
+}
+
+p {
+    /* border: 1px solid white; */
+    color: #8bacda;
+
+    font-weight: 300;
+
+}
+
+
+span{
+    color: #8bacda;
+}
+.clock {
+    margin: 0px 5px -2px 32px;
+}
+
+#ethereum{
+    margin: 14px 6px -2px -3px;
+}
+
+.icon-eth{
+    margin: 14px 6px -2px -3px;
+}
+hr{
+    margin-top: 22px;
+    color: #2f415b;
+}
+
+.profile-img{
+    height: 30px;
+width: 30px;
+display: inline-block;
+margin-top: 16px;
+margin-bottom: -7px;
+margin-right: 12px;
+margin-left: -11px;
+border: 1px solid white;
+border-radius: 50%;
+}
+
+#inline{
+  display: inline-block;
+ 
+  margin-right: 9px;
+}
